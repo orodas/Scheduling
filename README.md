@@ -1,6 +1,6 @@
 # Scheduling
 Simulates First Come First Served, Shortest Job First, Priority Scheduling, Round Robin, and Shortest Remaining Time First scheduling.
-Currently only supports a small data set and is written in Java.
+Currently only supports small data sets and is written in Java.
 
 Creates n randomized Job Objects each with its own arrival time, time remaining until completion, and priority.
 All the tasks are stored in an array of Job Objects.
