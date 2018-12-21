@@ -73,7 +73,7 @@ public class Scheduling
 		}
 	}
 	
-	public static void FCFS()
+	public static void FCFS()	//first come first served
 	{
 		double waitTime = 0;
 		double sum = 0;
@@ -93,7 +93,7 @@ public class Scheduling
 		System.out.println("");
 	}
 	
-	public static void SJF()
+	public static void SJF()	//shortest job first (burst time)
 	{
 		double waitTime = 0;
 		double sum = 0;
@@ -119,7 +119,7 @@ public class Scheduling
 		System.out.println("");
 	}
 	
-	public static void PS()
+	public static void PS()		//priority scheduling
 	{
 		double waitTime = 0;
 		double sum = 0;
@@ -173,7 +173,7 @@ public class Scheduling
 		System.out.println("");
 	}
 	
-	public static void RR()
+	public static void RR()		//round robin
 	{
 		double waitTime = 0;
 		double sum = 0;
@@ -216,7 +216,7 @@ public class Scheduling
 		System.out.println("");
 	}
 	
-	public static void SRTF()
+	public static void SRTF()		//shortest remaining time first
 	{
 		double waitTime = 0;
 		double sum = 0;
